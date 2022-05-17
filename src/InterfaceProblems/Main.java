@@ -1,9 +1,6 @@
 package InterfaceProblems;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -53,22 +50,36 @@ public class Main {
 //        names.add("Third");
 //
 //        System.out.println(returnSize(names));
-        //Map as a method parameter
-        Map<String, String> names = new HashMap<>();
-        names.put("1", "first");
-        names.put("2", "second");
-
-        System.out.println(returnSize(names));
+//        //Map as a method parameter
+//        Map<String, String> names = new HashMap<>();
+//        names.put("1", "first");
+//        names.put("2", "second");
+//
+//        System.out.println(returnSize(names));
+//        //Set as method parameter
+//        Set<String> names = new HashSet<>();
+//        names.add("first");
+//        names.add("first");
+//        names.add("second");
+//        names.add("second");
+//        names.add("second");
+//
+//        System.out.println(returnSize(names));
 
 
 
 
     }
 
-    //Map as a method parameter method
-    private static int returnSize(Map<String, String> names) {
-        return names.size();
+//    //Set as method parameter
+//    private static int returnSize(Set<String> names) {
+//        return names.size();
     }
+
+//    //Map as a method parameter method
+//    private static int returnSize(Map<String, String> names) {
+//        return names.size();
+//    }
 
 
 //    //List a method parameter method

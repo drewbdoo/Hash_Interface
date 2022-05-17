@@ -4,26 +4,26 @@ import java.util.Map;
 public class Program {
     public static void main(String[] args) {
 
-//        //Print me my hash map
-//        HashMap<String, String> hashmap = new HashMap<>();
-//        hashmap.put("f.e", "for example");
-//        hashmap.put("etc.", "and so on");
-//        hashmap.put("i.e.", "more precisely");
-//
-//        printKeys(hashmap);
-//        System.out.println("-----------");
-//        printKeysWhere(hashmap, "i");
-//        System.out.println("-----------");
-//        printValueOfKeysWhere(hashmap, ".e");
+        //Print me my hash map
+        HashMap<String, String> hashmap = new HashMap<>();
+        hashmap.put("f.e", "for example");
+        hashmap.put("etc.", "and so on");
+        hashmap.put("i.e.", "more precisely");
+
+        printKeys(hashmap);
+        System.out.println("-----------");
+        printKeysWhere(hashmap, "i");
+        System.out.println("-----------");
+        printValueOfKeysWhere(hashmap, ".e");
 
         //Print me another hash
-        HashMap<String, Book> hashmap = new HashMap<>();
-        hashmap.put("sense", new Book("Sense and Sensibility", 1811, "..."));
-        hashmap.put("prejudice", new Book("Pride and prejudice", 1813, "..."));
+        HashMap<String, Book> hashmap2 = new HashMap<>();
+        hashmap2.put("sense", new Book("Sense and Sensibility", 1811, "..."));
+        hashmap2.put("prejudice", new Book("Pride and prejudice", 1813, "..."));
 
-        printValues(hashmap);
+        printValues(hashmap2);
         System.out.println("-------");
-        printValueIfNameContains(hashmap, "prejud");
+        printValueIfNameContains(hashmap2, "prejud");
 
 
 

@@ -2,15 +2,15 @@ import java.util.HashMap;
 
 public class Hash {
     public static void main(String[] args) {
-////        First assignment
-//
-//        HashMap<String, String> nickName = new HashMap<>();
-//        nickName.put("matthew", "matt");
-//        nickName.put("micheal", "mix");
-//        nickName.put("arthur", "artie");
-//        System.out.println(nickName.get("matthew"));
+//        Nicknames
 
-        //Second assignment
+        HashMap<String, String> nickName = new HashMap<>();
+        nickName.put("matthew", "matt");
+        nickName.put("micheal", "mix");
+        nickName.put("arthur", "artie");
+        System.out.println(nickName.get("matthew"));
+
+        //Abbreviations
         Abbreviations abbrev = new Abbreviations();
         abbrev.addAbbreviations("e.g.", "for example");
         abbrev.addAbbreviations("etc.", "and so on");
@@ -23,14 +23,14 @@ public class Hash {
             }
             System.out.println(part);
             System.out.println(" ");
-
-
-
-
-
-
-
-
+    }
+        //IOU
+        IOU mattsIOU = new IOU();
+        mattsIOU.setSum("Arthur", 51.5);
+        mattsIOU.setSum("Micheal", 30);
+        System.out.println(mattsIOU.howMuchDoIOwnTo("Arthur"));
+        System.out.println(mattsIOU.howMuchDoIOwnTo("Micheal"));
+        System.out.println(mattsIOU.howMuchDoIOwnTo("Drew"));
 
 
         }
@@ -51,4 +51,5 @@ public class Hash {
 
 
     }
-}
+
+

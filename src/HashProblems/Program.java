@@ -1,5 +1,6 @@
+package HashProblems;
+
 import java.util.HashMap;
-import java.util.Map;
 
 public class Program {
     public static void main(String[] args) {
@@ -28,7 +29,7 @@ public class Program {
 
 
     }
-    //prints all the values in the hashmap given as a param using the toString method of the Book objects
+    //prints all the values in the hashmap given as a param using the toString method of the HashProblems.Book objects
     public static void printValues(HashMap<String, Book> hashmap){
         for(String S : hashmap.keySet()){
             System.out.println(hashmap.get(S).toString());

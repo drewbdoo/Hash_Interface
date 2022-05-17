@@ -1,3 +1,5 @@
+package HashProblems;
+
 import java.util.HashMap;
 
 public class IOU {
@@ -7,7 +9,7 @@ public class IOU {
         this.iou = new HashMap<>();
     }
 
-    //saves the amount owed and the person owed to the IOU
+    //saves the amount owed and the person owed to the HashProblems.IOU
     public void setSum(String toWhom, double amount){
         iou.put(toWhom, amount);
 

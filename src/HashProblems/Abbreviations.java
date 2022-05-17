@@ -1,3 +1,5 @@
+package HashProblems;
+
 import java.util.HashMap;
 
 public class Abbreviations {

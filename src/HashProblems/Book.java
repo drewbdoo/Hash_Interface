@@ -1,5 +1,6 @@
+package HashProblems;
 
-    public class Book {
+public class Book {
         private String name;
         private String content;
         private int published;

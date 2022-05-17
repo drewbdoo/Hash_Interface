@@ -1,3 +1,5 @@
+package HashProblems;
+
 import java.util.HashMap;
 
 public class Hash {
@@ -10,7 +12,7 @@ public class Hash {
         nickName.put("arthur", "artie");
         System.out.println(nickName.get("matthew"));
 
-        //Abbreviations
+        //HashProblems.Abbreviations
         Abbreviations abbrev = new Abbreviations();
         abbrev.addAbbreviations("e.g.", "for example");
         abbrev.addAbbreviations("etc.", "and so on");
@@ -24,7 +26,7 @@ public class Hash {
             System.out.println(part);
             System.out.println(" ");
     }
-        //IOU
+        //HashProblems.IOU
         IOU mattsIOU = new IOU();
         mattsIOU.setSum("Arthur", 51.5);
         mattsIOU.setSum("Micheal", 30);
